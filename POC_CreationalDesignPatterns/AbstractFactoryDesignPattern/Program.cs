@@ -13,3 +13,11 @@ player.RenderControls();
 factory = new MacMediaControl();
 player = new MediaPlayer(factory);
 player.RenderControls();
+
+
+// Car
+CarClient carClient = new CarClient(CarCountry.US);
+carClient.CarDetails();
+
+carClient = new CarClient(CarCountry.India);
+carClient.CarDetails();
